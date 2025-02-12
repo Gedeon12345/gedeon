@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./components/header"
 import Footer from "./components/footer"
 import Home from "./pages/home"
@@ -25,6 +26,7 @@ export default function () {
                 </Routes>
             <Footer/>
             </Router>
+            <Analytics />
         </>
     )
 
