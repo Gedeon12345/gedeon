@@ -145,7 +145,7 @@ export default function () {
                     </div>
                 </div>
             </section>
-            {/* <section className="bg-[#1b262c00] h-[110vh] flex flex-col items-center justify-center text-[#fff] w-[100%]">
+            <section className="bg-[#1b262c00] h-[110vh] flex flex-col items-center justify-center text-[#000] w-[100%]">
                 <h1 className='text-4xl uppercase md:mt-0 mt-20'>Achievments</h1>
                 <div className='w-2xs h-[5px] mb-5 mt-3 border-2 bg-[#fff]'></div>
                 <div className=" flex md:flex-row flex-col justify-center items-center w-[100%]">
@@ -159,7 +159,7 @@ export default function () {
                         <button className='cursor-pointer w-[300px] h-[30px] border-2'>Offer a gift now</button>
                     </div>
                 </div>
-            </section> */}
+            </section>
         </>
     )
 } 
